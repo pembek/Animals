@@ -1,0 +1,10 @@
+backend/.kaggle
+
+*.db
+
+.vscode
+
+*.DS_Store*
+
+**/node/
+**/node_modules/
