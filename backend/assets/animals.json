@@ -1,0 +1,37 @@
+{
+  "cat": {
+    "en": "Cat",
+    "tr": "Kedi",
+    "de": "Katze"
+  },
+  "dog": {
+    "en": "Dog",
+    "tr": "Köpek",
+    "de": "Hund"
+  },
+  "fox": {
+    "en": "Fox",
+    "tr": "Tilki",
+    "de": "Fuchs"
+  },
+  "leopard": {
+    "en": "Leopard",
+    "tr": "Leopar",
+    "de": "Leopard"
+  },
+  "lion": {
+    "en": "Lion",
+    "tr": "Aslan",
+    "de": "Löwe"
+  },
+  "tiger": {
+    "en": "Tiger",
+    "tr": "Kaplan",
+    "de": "Tiger"
+  },
+  "wolf": {
+    "en": "Wolf",
+    "tr": "Kurt",
+    "de": "Wolf"
+  }
+}

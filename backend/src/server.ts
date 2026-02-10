@@ -3,6 +3,7 @@ import fastifyStatic from '@fastify/static'
 import path from 'path'
 import fastifyCors from '@fastify/cors'
 import fs from 'fs/promises'
+import * as fsSync from 'fs'
 import translations from '../assets/animals141/translation.json' assert { type: 'json' }
 
 type Lang = 'en' | 'de' | 'tr'
@@ -22,15 +23,43 @@ app.register(fastifyStatic, {
 
 // Animals endpoint
 app.get('/animals', async (request) => {
-  const query = request.query as { lang?: string | string[] }
+  const query = request.query as { lang?: string | string[], mode?: string | string[] }
   let lang: Lang = 'en'  // default
+  let mode = 'toddler';
 
   if (query.lang) {
     const l = Array.isArray(query.lang) ? query.lang[0] : query.lang
     // sadece 'en'|'de'|'tr' kabul edelim
     if (l === 'en' || l === 'de' || l === 'tr') lang = l 
   }
-    
+  if (query.mode) {
+    const m = Array.isArray(query.mode) ? query.mode[0] : query.mode
+    if (m === 'baby' || m === 'toddler') mode = m;
+  }
+
+  if (mode === 'baby') {
+    // Serve from animals.json and curated images
+    const animalsPath = path.join(process.cwd(), 'assets/animals.json')
+    const animalsRaw = JSON.parse(await fs.readFile(animalsPath, 'utf-8'))
+    return Object.entries(animalsRaw).map(([id, namesRaw]) => {
+      // Find first image in /assets/images/{id}/
+      const imgDir = path.join(process.cwd(), 'assets/images', id)
+      let image = ''
+      try {
+        const files = fsSync.readdirSync(imgDir)
+        const firstImg = files.find((f: string) => /\.(jpg|jpeg|png)$/i.test(f))
+        if (firstImg) image = `/assets/images/${id}/${firstImg}`
+      } catch {}
+      const names = namesRaw as Record<string, string>;
+      return {
+        id,
+        name: names[lang] || names['en'] || id,
+        image
+      }
+    })
+  }
+
+  // Toddler mode (default):
   const animalsDir = path.join(process.cwd(), 'assets/animals141/dataset/dataset')
   const folders = await fs.readdir(animalsDir)
 
@@ -46,8 +75,7 @@ app.get('/animals', async (request) => {
       return {
         id: folder.toLowerCase(),
         name: translationsTyped[folder]?.[lang] || folder, // EN / DE / TR
-        image: `/assets/animals141/dataset/dataset/${folder}/${firstImage}`,
-        sound: `/assets/sounds/${folder.toLowerCase()}.mp3` // ileride
+        image: `/assets/animals141/dataset/dataset/${folder}/${firstImage}`
       }
     })
   )
