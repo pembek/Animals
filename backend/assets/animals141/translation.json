@@ -1,1 +1,560 @@
-{"equus-quagga": "Plains Zebra", "panthera-leo": "Lion", "panthera-onca": "Jaguar", "ursus-arctos-horribilis": "Grizzly Bear", "megaptera-novaeangliae": "Humpback Whale", "panthera-tigris": "Tiger", "haliaeetus-leucocephalus": "Bald Eagle", "tyrannosaurus-rex": "T. Rex", "diplodocus": "Diplodocus", "panthera-pardus": "Leopard", "homo-sapiens": "Modern Humans", "phoebetria-fusca": "Sooty Albatross", "bos-taurus": "Domestic Cow", "gallus-gallus-domesticus": "Chicken", "ovis-aries": "Sheep", "ceratotherium-simum": "White Rhino", "loxodonta-africana": "African Bush Elephant", "tursiops-truncatus": "Common Bottlenose Dolphin", "orcinus-orca": "Killer Whale", "carcharodon-carcharias": "Great White Shark", "canis-lupus-familiaris": "Domestic Dog", "felis-catus": "Cat", "salmo-salar": "Salmon", "balaenoptera-musculus": "Blue Whale", "giraffa-camelopardalis": "Northern Giraffe", "ophiophagus-hannah": "King Cobra", "crotalus-atrox": "Western diamondback rattlesnake", "varanus-komodoensis": "Komodo Dragon", "pterois-mombasae": "African Lionfish", "spinosaurus-aegyptiacus": "Spinosaurus", "crocodylus-niloticus": "Crocodile", "falco-peregrinus": "Peregrine Falcon", "gorilla-gorilla": "Gorilla", "pongo-abelii": "Orangutan", "gavialis-gangeticus": "Gharial", "acinonyx-jubatus": "Cheetah", "canis-lupus": "Wolf", "ursus-maritimus": "Polar Bear", "hippopotamus-amphibius": "Hippopotamus", "iguana-iguana": "Green Iguana", "iguanodon-bernissartensis": "Iguanadon", "stegosaurus-stenops": "Stegosaurus", "triceratops-horridus": "Triceratops", "pteranodon-longiceps": "Pteranodon", "ankylosaurus-magniventris": "Ankylosaurus", "agalychnis-callidryas": "Tree Frog", "dendrobatidae": "Poison Dart Frog", "mellisuga-helenae": "Bee Hummingbird", "eudocimus-albus": "American white ibis", "sphyrna-mokarran": "Great hammerhead shark", "trilobita": "Trilobites", "enteroctopus-dofleini": "Giant Pacific octopus", "coelacanthiformes": "Coelacanth", "equus-caballus": "Horse", "odobenus-rosmarus": "Walrus", "physeter-macrocephalus": "Sperm Whale", "dugong-dugon": "Dugong", "eunectes-murinus": "Green Anaconda", "malayopython-reticulatus": "Reticulated Python", "rattus-rattus": "Black Rat", "ornithorhynchus-anatinus": "Platypus", "desmodus-rotundus": "Vampire Bat", "taurotragus-oryx": "Common Eland", "connochaetes-gnou": "Wildebeest", "puma-concolor": "Cougar", "formicidae": "Ant", "danaus-plexippus": "Monarch Butterfly", "papilio-glaucus": "Eastern Tiger Swallowtail", "heterocera": "Moth", "dermochelys-coriacea": "Leatherback Sea Turtle", "lampropeltis-triangulum": "Milk snake", "heloderma-suspectum": "Gila Monster", "macropus-giganteus": "Kangaroo", "ailuropoda-melanoleuca": "Giant Panda", "ailurus-fulgens": "Red Panda", "procyon-lotor": "Raccoon", "smilodon-populator": "Smilodon", "mammuthus-primigeniu": "Woolly Mammoth", "tapirus": "Tapir", "bison-bison": "American Bison", "alces-alces": "Moose", "aptenodytes-forsteri": "Emperor Penguin", "hydrurga-leptonyx": "Leopard Seal", "bradypus-variegatus": "Brown-throated Three-toed Sloth", "sciurus-carolinensis": "Eastern Gray Squirrel", "cyanocitta-cristata": "Blue Jay", "periplaneta-americana": "American Cockroach", "anas-platyrhynchos": "Mallard", "pavo-cristatus": "Indian Peafowl", "ara-macao": "Scarlet Macaw", "enhydra-lutris": "Sea Otter", "physalia-physalis": "Portuguese Man o' War", "codium-fragile": "Dead Man's Fingers", "centruroides-vittatus": "Striped Bark Scorpion", "lemur-catta": "Ring-tailed Lemur", "delphinapterus-leucas": "Beluga", "inia-geoffrensis": "Boto", "phascolarctos-cinereus": "Koala", "spheniscus-demersus": "African Penguin", "aquila-chrysaetos": "Golden Eagle", "branta-canadensis": "Canada Goose", "turdus-migratorius": "American Robin", "passerina-ciris": "Painted Bunting", "geococcyx-californianus": "Greater Roadrunner", "icterus-galbula": "Baltimore Oriole", "icterus-spurius": "Orchard Oriole", "crotophaga-sulcirostris": "Groove-billed Ani", "monodon-monoceros": "Narwhal", "struthio-camelus": "Common Ostrich", "ardea-herodias": "Great Blue Heron", "phoenicopterus-ruber": "American Flamingo", "okapia-johnstoni": "Okapi", "cryptoprocta-ferox": "Fossa", "cardinalis-cardinalis": "Northern Cardinal", "apis-mellifera": "Western Honey Bee", "telmatobufo-bullocki": "Bullock Mountains False Toad", "architeuthis-dux": "Giant Squid", "agkistrodon-contortrix": "Eastern Copperhead", "eidolon-helvum": "Straw-coloured Fruit Bat", "ceratitis-capitata": "Mediterranean Fruit Fly", "musca-domestica": "Common House Fly", "thryothorus-ludovicianus": "Carolina Wren", "rusa-unicolor": "Sambar", "bos-gaurus": "Gaur", "vultur-gryphus": "Andean Condor", "aethia-cristatella": "Crested Auklet", "mimus-polyglottos": "Northern Mockingbird", "cathartes-aura": "Turkey Vulture", "poecile-atricapillus": "Black-capped Chickadee", "mergus-serrator": "Red-breasted Merganser", "colaptes-auratus": "Northern Flicker", "circus-hudsonius": "Northern Harrier", "tyrannus-tyrannus": "Eastern Kingbird", "betta-splendens": "Siamese Fighting Fish", "pterois-volitans": "Common Lionfish", "phyllobates-terribilis": "Golden Poison Dart Frog", "hapalochlaena-maculosa": "Lesser Blue-ringed Octopus", "ovis-canadensis": "Bighorn Sheep", "vulpes-vulpes": "Red Fox", "lepus-americanus": "Snowshoe Hare", "dasypus-novemcinctus": "Nine-banded Armadillo", "martes-americana": "American Marten", "tarsius-pumilus": "Pygmy Tarsier", "melanerpes-carolinus": "Red-bellied Woodpecker", "icterus-gularis": "Altamira Oriole", "chelonia-mydas": "Green Sea Turtle", "chrysemys-picta": "Painted Turtle", "pantherophis-guttatus": "Corn Snake", "correlophus-ciliatus": "Crested Giant Gecko", "centrochelys-sulcata": "African Spurred Tortoise", "pantherophis-alleghaniensis": "Eastern Ratsnake"}
+{
+  "acinonyx-jubatus": { "en": "Cheetah", "de": "der Gepard", "tr": "Çita" },
+  "agalychnis-callidryas": { "en": "Tree Frog", "de": "der Rotaugenlaubfrosch", "tr": "Ağaç Kurbağası" },
+  "agkistrodon-contortrix": { "en": "Eastern Copperhead", "de": "die Kupferkopf-Natter", "tr": "Bakırbaşlı Yılan" },
+  "ailuropoda-melanoleuca": { "en": "Giant Panda", "de": "der Große Panda", "tr": "Dev Panda" },
+  "ailurus-fulgens": { "en": "Red Panda", "de": "der Rote Panda", "tr": "Kızıl Panda" },
+  "alces-alces": { "en": "Moose", "de": "der Elch", "tr": "Geyik" },
+  "anas-platyrhynchos": { "en": "Mallard", "de": "die Stockente", "tr": "Yeşilbaş Ördek" },
+  "ankylosaurus-magniventris": { "en": "Ankylosaurus", "de": "der Ankylosaurus", "tr": "Ankilozor" },
+  "apis-mellifera": { "en": "Western Honey Bee", "de": "die Honigbiene", "tr": "Bal Arısı" },
+  "aptenodytes-forsteri": { "en": "Emperor Penguin", "de": "der Kaiserpinguin", "tr": "İmparator Pengueni" },
+  "aquila-chrysaetos": { "en": "Golden Eagle", "de": "der Steinadler", "tr": "Altın Kartal" },
+  "ara-macao": { "en": "Scarlet Macaw", "de": "der Hellrote Ara", "tr": "Kızıl Ara Papağanı" },
+  "architeuthis-dux": { "en": "Giant Squid", "de": "der Riesenkalmar", "tr": "Dev Kalamar" },
+  "ardea-herodias": { "en": "Great Blue Heron", "de": "der Kanadareiher", "tr": "Büyük Mavi Balıkçıl" },
+  "aethia-cristatella": { "en": "Crested Auklet", "de": "der Schopfalk", "tr": "Tepeli Alk" },
+
+  "balaenoptera-musculus": { "en": "Blue Whale", "de": "der Blauwal", "tr": "Mavi Balina" },
+  "betta-splendens": { "en": "Siamese Fighting Fish", "de": "der Kampffisch", "tr": "Beta Balığı" },
+  "bison-bison": { "en": "American Bison", "de": "der Amerikanische Bison", "tr": "Amerikan Bizonu" },
+  "bos-gaurus": { "en": "Gaur", "de": "der Gaur", "tr": "Gaur Sığırı" },
+  "bos-taurus": { "en": "Domestic Cow", "de": "die Hauskuh", "tr": "İnek" },
+  "bradypus-variegatus": { "en": "Brown-throated Three-toed Sloth", "de": "das Braunkehl-Faultier", "tr": "Üç Parmaklı Tembel Hayvan" },
+  "branta-canadensis": { "en": "Canada Goose", "de": "die Kanadagans", "tr": "Kanada Kazı" },
+
+  "canis-lupus": { "en": "Wolf", "de": "der Wolf", "tr": "Kurt" },
+  "canis-lupus-familiaris": { "en": "Domestic Dog", "de": "der Haushund", "tr": "Köpek" },
+  "cardinalis-cardinalis": { "en": "Northern Cardinal", "de": "der Kardinal", "tr": "Kardinal Kuşu" },
+  "carcharodon-carcharias": { "en": "Great White Shark", "de": "der Weiße Hai", "tr": "Büyük Beyaz Köpekbalığı" },
+  "cathartes-aura": { "en": "Turkey Vulture", "de": "der Truthahngeier", "tr": "Hindi Akbabası" },
+  "centrochelys-sulcata": { "en": "African Spurred Tortoise", "de": "die Spornschildkröte", "tr": "Afrika Mahmuzlu Kaplumbağası" },
+  "centruroides-vittatus": { "en": "Striped Bark Scorpion", "de": "der Streifenrindenskorpion", "tr": "Çizgili Akrep" },
+  "ceratitis-capitata": { "en": "Mediterranean Fruit Fly", "de": "die Mittelmeerfruchtfliege", "tr": "Akdeniz Meyve Sineği" },
+  "ceratotherium-simum": { "en": "White Rhino", "de": "das Breitmaulnashorn", "tr": "Beyaz Gergedan" },
+  "chelonia-mydas": { "en": "Green Sea Turtle", "de": "die Grüne Meeresschildkröte", "tr": "Yeşil Deniz Kaplumbağası" },
+  "chrysemys-picta": { "en": "Painted Turtle", "de": "die Zierschildkröte", "tr": "Boyalı Kaplumbağa" },
+  "circus-hudsonius": { "en": "Northern Harrier", "de": "die Kornweihe", "tr": "Bataklık Delicesi" },
+  "codium-fragile": { "en": "Dead Man's Fingers", "de": "die Totenfinger-Alge", "tr": "Ölü Adam Parmakları" },
+  "colaptes-auratus": { "en": "Northern Flicker", "de": "der Goldspecht", "tr": "Altın Ağaçkakan" },
+  "connochaetes-gnou": { "en": "Wildebeest", "de": "das Gnu", "tr": "Gnu" },
+  "correlophus-ciliatus": { "en": "Crested Giant Gecko", "de": "der Wimperngecko", "tr": "Tepeli Geko" },
+  "crotalus-atrox": { "en": "Western Diamondback Rattlesnake", "de": "die Diamant-Klapperschlange", "tr": "Batı Elmaslı Çıngıraklı Yılan" },
+  "cryptoprocta-ferox": { "en": "Fossa", "de": "die Fossa", "tr": "Fossa" },
+  "danaus-plexippus": {
+    "en": "Monarch Butterfly",
+    "de": "der Monarchfalter",
+    "tr": "Monark Kelebeği"
+  },
+  "dasypus-novemcinctus": {
+    "en": "Nine-banded Armadillo",
+    "de": "das Neunbinden-Gürteltier",
+    "tr": "Dokuz Bantlı Armadillo"
+  },
+  "delphinapterus-leucas": {
+    "en": "Beluga",
+    "de": "der Belugawal",
+    "tr": "Beluga Balinası"
+  },
+  "dendrobatidae": {
+    "en": "Poison Dart Frog",
+    "de": "der Pfeilgiftfrosch",
+    "tr": "Zehirli Ok Kurbağası"
+  },
+  "dermochelys-coriacea": {
+    "en": "Leatherback Sea Turtle",
+    "de": "die Lederschildkröte",
+    "tr": "Deri Sırtlı Deniz Kaplumbağası"
+  },
+  "desmodus-rotundus": {
+    "en": "Vampire Bat",
+    "de": "die Vampirfledermaus",
+    "tr": "Vampir Yarasası"
+  },
+  "diplodocus": {
+    "en": "Diplodocus",
+    "de": "der Diplodocus",
+    "tr": "Diplodokus"
+  },
+  "dugong-dugon": {
+    "en": "Dugong",
+    "de": "der Dugong",
+    "tr": "Dugong"
+  },
+
+  "eidolon-helvum": {
+    "en": "Straw-coloured Fruit Bat",
+    "de": "der Flughund",
+    "tr": "Meyve Yarasası"
+  },
+  "enhydra-lutris": {
+    "en": "Sea Otter",
+    "de": "der Seeotter",
+    "tr": "Deniz Samuru"
+  },
+  "enteroctopus-dofleini": {
+    "en": "Giant Pacific Octopus",
+    "de": "der Riesenkrake",
+    "tr": "Dev Pasifik Ahtapotu"
+  },
+  "equus-caballus": {
+    "en": "Horse",
+    "de": "das Pferd",
+    "tr": "At"
+  },
+  "equus-quagga": {
+    "en": "Plains Zebra",
+    "de": "das Steppenzebra",
+    "tr": "Ova Zebrası"
+  },
+  "eudocimus-albus": {
+    "en": "American White Ibis",
+    "de": "der Weißibis",
+    "tr": "Amerikan Ak İbisi"
+  },
+  "eunectes-murinus": {
+    "en": "Green Anaconda",
+    "de": "die Grüne Anakonda",
+    "tr": "Yeşil Anakonda"
+  },
+
+  "falco-peregrinus": {
+    "en": "Peregrine Falcon",
+    "de": "der Wanderfalke",
+    "tr": "Gökdoğan"
+  },
+  "felis-catus": {
+    "en": "Cat",
+    "de": "die Katze",
+    "tr": "Kedi"
+  },
+  "formicidae": {
+    "en": "Ant",
+    "de": "die Ameise",
+    "tr": "Karınca"
+  },
+
+  "gallus-gallus-domesticus": {
+    "en": "Chicken",
+    "de": "das Haushuhn",
+    "tr": "Tavuk"
+  },
+  "gavialis-gangeticus": {
+    "en": "Gharial",
+    "de": "der Gangesgavial",
+    "tr": "Gavial"
+  },
+  "geococcyx-californianus": {
+    "en": "Greater Roadrunner",
+    "de": "der Rennkuckuck",
+    "tr": "Yol Koşucusu"
+  },
+  "giraffa-camelopardalis": {
+    "en": "Northern Giraffe",
+    "de": "die Nördliche Giraffe",
+    "tr": "Zürafa"
+  },
+  "gorilla-gorilla": {
+    "en": "Gorilla",
+    "de": "der Gorilla",
+    "tr": "Goril"
+  },
+
+  "haliaeetus-leucocephalus": {
+    "en": "Bald Eagle",
+    "de": "der Weißkopfseeadler",
+    "tr": "Kel Kartal"
+  },
+  "hapalochlaena-maculosa": {
+    "en": "Lesser Blue-ringed Octopus",
+    "de": "der Blaugeringelte Krake",
+    "tr": "Mavi Halkalı Ahtapot"
+  },
+  "heloderma-suspectum": {
+    "en": "Gila Monster",
+    "de": "das Gila-Krustenechse",
+    "tr": "Gila Canavarı"
+  },
+  "heterocera": {
+    "en": "Moth",
+    "de": "die Motte",
+    "tr": "Güve"
+  },
+  "hippopotamus-amphibius": {
+    "en": "Hippopotamus",
+    "de": "das Nilpferd",
+    "tr": "Su Aygırı"
+  },
+  "homo-sapiens": {
+    "en": "Modern Humans",
+    "de": "der moderne Mensch",
+    "tr": "Modern İnsan"
+  },
+  "hydrurga-leptonyx": {
+    "en": "Leopard Seal",
+    "de": "der Seeleopard",
+    "tr": "Leopar Fok"
+  },
+
+  "icterus-galbula": {
+    "en": "Baltimore Oriole",
+    "de": "der Baltimoretrupial",
+    "tr": "Baltimore Oriolesi"
+  },
+  "icterus-spurius": {
+    "en": "Orchard Oriole",
+    "de": "der Gartentrupial",
+    "tr": "Bahçe Oriolesi"
+  },
+  "icterus-gularis": {
+    "en": "Altamira Oriole",
+    "de": "der Altamiratrupial",
+    "tr": "Altamira Oriolesi"
+  },
+  "iguana-iguana": {
+    "en": "Green Iguana",
+    "de": "der Grüne Leguan",
+    "tr": "Yeşil İguana"
+  },
+  "iguanodon-bernissartensis": {
+    "en": "Iguanodon",
+    "de": "der Iguanodon",
+    "tr": "İguanodon"
+  },
+  "inia-geoffrensis": {
+    "en": "Boto",
+    "de": "der Amazonas-Flussdelfin",
+    "tr": "Amazon Yunusu"
+  },
+  "lampropeltis-triangulum": {
+    "en": "Milk Snake",
+    "de": "die Milchschlange",
+    "tr": "Süt Yılanı"
+  },
+  "lemur-catta": {
+    "en": "Ring-tailed Lemur",
+    "de": "der Katta",
+    "tr": "Halkalı Kuyruklu Lemur"
+  },
+  "lepus-americanus": {
+    "en": "Snowshoe Hare",
+    "de": "der Schneeschuhhase",
+    "tr": "Kar Tavşanı"
+  },
+  "loxodonta-africana": {
+    "en": "African Bush Elephant",
+    "de": "der Afrikanische Elefant",
+    "tr": "Afrika Filleri"
+  },
+
+  "macropus-giganteus": {
+    "en": "Kangaroo",
+    "de": "das Känguru",
+    "tr": "Kanguru"
+  },
+  "malayopython-reticulatus": {
+    "en": "Reticulated Python",
+    "de": "der Netzpython",
+    "tr": "Ağ Desenli Piton"
+  },
+  "mammuthus-primigeniu": {
+    "en": "Woolly Mammoth",
+    "de": "das Wollhaarmammut",
+    "tr": "Yünlü Mamut"
+  },
+  "martes-americana": {
+    "en": "American Marten",
+    "de": "der Amerikanische Marder",
+    "tr": "Amerikan Sansarı"
+  },
+  "megaptera-novaeangliae": {
+    "en": "Humpback Whale",
+    "de": "der Buckelwal",
+    "tr": "Kambur Balina"
+  },
+  "melanerpes-carolinus": {
+    "en": "Red-bellied Woodpecker",
+    "de": "der Rotbauchspecht",
+    "tr": "Kızıl Karınlı Ağaçkakan"
+  },
+  "mellisuga-helenae": {
+    "en": "Bee Hummingbird",
+    "de": "der Bienenelfe",
+    "tr": "Arı Sinekkuşu"
+  },
+  "mergus-serrator": {
+    "en": "Red-breasted Merganser",
+    "de": "der Mittelsäger",
+    "tr": "Kızıl Göğüslü Tulumcu"
+  },
+  "mimus-polyglottos": {
+    "en": "Northern Mockingbird",
+    "de": "der Spottdrossel",
+    "tr": "Alaycı Kuş"
+  },
+  "monodon-monoceros": {
+    "en": "Narwhal",
+    "de": "der Narwal",
+    "tr": "Narval"
+  },
+  "musca-domestica": {
+    "en": "Common House Fly",
+    "de": "die Stubenfliege",
+    "tr": "Ev Sineği"
+  },
+  "odobenus-rosmarus": {
+    "en": "Walrus",
+    "de": "das Walross",
+    "tr": "Mors"
+  },
+  "okapia-johnstoni": {
+    "en": "Okapi",
+    "de": "das Okapi",
+    "tr": "Okapi"
+  },
+  "ophiophagus-hannah": {
+    "en": "King Cobra",
+    "de": "die Königskobra",
+    "tr": "Kral Kobra"
+  },
+  "ornithorhynchus-anatinus": {
+    "en": "Platypus",
+    "de": "das Schnabeltier",
+    "tr": "Ornitorenk"
+  },
+  "ovis-aries": {
+    "en": "Sheep",
+    "de": "das Schaf",
+    "tr": "Koyun"
+  },
+  "ovis-canadensis": {
+    "en": "Bighorn Sheep",
+    "de": "das Dickhornschaf",
+    "tr": "Büyük Boynuzlu Koyun"
+  },
+  "pongo-abelii": {
+    "en": "Orangutan",
+    "de": "der Orang-Utan",
+    "tr": "Orangutan"
+  },
+  "panthera-leo": {
+    "en": "Lion",
+    "de": "der Löwe",
+    "tr": "Aslan"
+  },
+  "panthera-onca": {
+    "en": "Jaguar",
+    "de": "der Jaguar",
+    "tr": "Jaguar"
+  },
+  "panthera-pardus": {
+    "en": "Leopard",
+    "de": "der Leopard",
+    "tr": "Leopar"
+  },
+  "panthera-tigris": {
+    "en": "Tiger",
+    "de": "der Tiger",
+    "tr": "Kaplan"
+  },
+  "pantherophis-guttatus": {
+    "en": "Corn Snake",
+    "de": "die Kornnatter",
+    "tr": "Mısır Yılanı"
+  },
+  "pantherophis-alleghaniensis": {
+    "en": "Eastern Ratsnake",
+    "de": "die Östliche Rattennatter",
+    "tr": "Doğu Sıçan Yılanı"
+  },
+  "papilio-glaucus": {
+    "en": "Eastern Tiger Swallowtail",
+    "de": "der Tigerspanner",
+    "tr": "Doğu Kaplan Kırlangıçkuyruğu"
+  },
+  "passerina-ciris": {
+    "en": "Painted Bunting",
+    "de": "der Buntammer",
+    "tr": "Boyalı Kirazkuşu"
+  },
+  "pavo-cristatus": {
+    "en": "Indian Peafowl",
+    "de": "der Indische Pfau",
+    "tr": "Hint Tavuskuşu"
+  },
+  "periplaneta-americana": {
+    "en": "American Cockroach",
+    "de": "die Amerikanische Schabe",
+    "tr": "Amerikan Hamam Böceği"
+  },
+  "phascolarctos-cinereus": {
+    "en": "Koala",
+    "de": "der Koala",
+    "tr": "Koala"
+  },
+  "phoebetria-fusca": {
+    "en": "Sooty Albatross",
+    "de": "der Rußalbatros",
+    "tr": "Kurum Albatrosu"
+  },
+  "physeter-macrocephalus": {
+    "en": "Sperm Whale",
+    "de": "der Pottwal",
+    "tr": "İspermeçet Balinası"
+  },
+  "physalia-physalis": {
+    "en": "Portuguese Man o' War",
+    "de": "die Portugiesische Galeere",
+    "tr": "Portekiz Denizanası"
+  },
+  "poecile-atricapillus": {
+    "en": "Black-capped Chickadee",
+    "de": "die Schwarzhaubenmeise",
+    "tr": "Kara Başlı Baştankara"
+  },
+  "procyon-lotor": {
+    "en": "Raccoon",
+    "de": "der Waschbär",
+    "tr": "Rakun"
+  },
+  "pteranodon-longiceps": {
+    "en": "Pteranodon",
+    "de": "der Pteranodon",
+    "tr": "Pteranodon"
+  },
+  "pterois-mombasae": {
+    "en": "African Lionfish",
+    "de": "der Afrikanische Rotfeuerfisch",
+    "tr": "Afrika Aslan Balığı"
+  },
+  "pterois-volitans": {
+    "en": "Common Lionfish",
+    "de": "der Rotfeuerfisch",
+    "tr": "Aslan Balığı"
+  },
+  "puma-concolor": {
+    "en": "Cougar",
+    "de": "der Puma",
+    "tr": "Puma"
+  },
+
+  "rattus-rattus": {
+    "en": "Black Rat",
+    "de": "die Hausratte",
+    "tr": "Kara Sıçan"
+  },
+  "rusa-unicolor": {
+    "en": "Sambar",
+    "de": "der Sambarhirsch",
+    "tr": "Sambar Geyiği"
+  },
+  "salmo-salar": {
+    "en": "Salmon",
+    "de": "der Atlantische Lachs",
+    "tr": "Somon"
+  },
+  "sciurus-carolinensis": {
+    "en": "Eastern Gray Squirrel",
+    "de": "das Grauhörnchen",
+    "tr": "Gri Sincap"
+  },
+  "sphyrna-mokarran": {
+    "en": "Great Hammerhead Shark",
+    "de": "der Große Hammerhai",
+    "tr": "Büyük Çekiçbaşlı Köpekbalığı"
+  },
+  "smilodon-populator": {
+    "en": "Smilodon",
+    "de": "der Säbelzahntiger",
+    "tr": "Kılıç Dişli Kaplan"
+  },
+  "spinosaurus-aegyptiacus": {
+    "en": "Spinosaurus",
+    "de": "der Spinosaurus",
+    "tr": "Spinosaurus"
+  },
+  "spheniscus-demersus": {
+    "en": "African Penguin",
+    "de": "der Brillenpinguin",
+    "tr": "Afrika Pengueni"
+  },
+  "stegosaurus-stenops": {
+    "en": "Stegosaurus",
+    "de": "der Stegosaurus",
+    "tr": "Stegosaurus"
+  },
+  "struthio-camelus": {
+    "en": "Common Ostrich",
+    "de": "der Strauß",
+    "tr": "Devekuşu"
+  },
+
+  "tapirus": {
+    "en": "Tapir",
+    "de": "der Tapir",
+    "tr": "Tapir"
+  },
+  "tarsius-pumilus": {
+    "en": "Pygmy Tarsier",
+    "de": "der Koboldmaki",
+    "tr": "Cüce Tarsiyer"
+  },
+  "taurotragus-oryx": {
+    "en": "Common Eland",
+    "de": "der Eland",
+    "tr": "Eland Antilobu"
+  },
+  "telmatobufo-bullocki": {
+    "en": "Bullock Mountains False Toad",
+    "de": "die Bullock-Kröte",
+    "tr": "Bullock Dağ Kurbağası"
+  },
+  "triceratops-horridus": {
+    "en": "Triceratops",
+    "de": "der Triceratops",
+    "tr": "Triceratops"
+  },
+  "trilobita": {
+    "en": "Trilobites",
+    "de": "die Trilobiten",
+    "tr": "Trilobitler"
+  },
+  "turdus-migratorius": {
+    "en": "American Robin",
+    "de": "die Wanderdrossel",
+    "tr": "Amerikan Ardıcı"
+  },
+  "tyrannosaurus-rex": {
+    "en": "T. Rex",
+    "de": "der Tyrannosaurus Rex",
+    "tr": "T-Rex"
+  },
+
+  "ursus-arctos-horribilis": {
+    "en": "Grizzly Bear",
+    "de": "der Grizzlybär",
+    "tr": "Grizzly Ayısı"
+  },
+  "ursus-maritimus": {
+    "en": "Polar Bear",
+    "de": "der Eisbär",
+    "tr": "Kutup Ayısı"
+  },
+
+  "varanus-komodoensis": {
+    "en": "Komodo Dragon",
+    "de": "der Komodowaran",
+    "tr": "Komodo Ejderi"
+  },
+  "vultur-gryphus": {
+    "en": "Andean Condor",
+    "de": "der Andenkondor",
+    "tr": "And Kondoru"
+  },
+  "vulpes-vulpes": {
+    "en": "Red Fox",
+    "de": "der Rotfuchs",
+    "tr": "Kızıl Tilki"
+  }
+
+}
