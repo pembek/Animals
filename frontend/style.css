@@ -1,40 +1,132 @@
-body {
-  font-family: system-ui, sans-serif;
-  margin: 0;
-  padding: 16px;
-}
-
+/* -------------------------
+   Controls (language & layout)
+-------------------------- */
 #controls {
-  text-align: center;
-  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 
 #controls button {
-  font-size: 20px;
-  margin: 4px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 1.5rem;
+  background: linear-gradient(135deg, #6c63ff, #48b1f2);
+  color: white;
   cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
+#controls button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #48b1f2, #6c63ff);
+}
+
+/* -------------------------
+   Pagination buttons
+-------------------------- */
+#pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#pagination button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.2s ease;
+}
+
+#pagination button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+}
+
+/* -------------------------
+   Carousel / Grid
+-------------------------- */
 #grid {
-  display: grid;
-  gap: 16px;
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+  justify-content: center;
 }
 
+#grid::-webkit-scrollbar {
+  height: 8px;
+}
+
+#grid::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+
+/* -------------------------
+   Animal Card
+-------------------------- */
 .card {
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,.1);
-  background: #fff;
-  text-align: center;
-  padding: 8px;
+  flex: 0 0 250px; /* default width, adjusted by perPage in JS */
+  background: #fff9f0;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  scroll-snap-align: start;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .card img {
-  width: 100%;
-  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .card .name {
-  font-size: clamp(1rem, 2vw, 1.5rem); /* min 1rem, max 1.5rem, orta büyüklük viewport’a göre */
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
+/* Audio button */
+.card button {
+  font-size: 1.5rem;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #ffda6c, #ffc76b);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: all 0.2s ease;
+}
+
+.card button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  background: linear-gradient(135deg, #ffc76b, #ffda6c);
+}

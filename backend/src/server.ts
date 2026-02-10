@@ -37,7 +37,7 @@ app.get('/animals', async (request) => {
   //const translationPath = path.join(process.cwd(), 'assets/animals141/translation.json')
   //const translations: Record<string, string> = JSON.parse(await fs.readFile(translationPath, 'utf-8'))
   // Record<key, AnimalTranslation>
-  const translationsTyped: Record<string, AnimalTranslation> = translations as Record<string, AnimalTranslation>
+  const translationsTyped: Record<string, AnimalTranslation> =  translations as Record<string, AnimalTranslation>
     
   return Promise.all(
     folders.map(async (folder) => {
