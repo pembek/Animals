@@ -1,0 +1,40 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 16px;
+}
+
+#controls {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+#controls button {
+  font-size: 20px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+#grid {
+  display: grid;
+  gap: 16px;
+}
+
+.card {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,.1);
+  background: #fff;
+  text-align: center;
+  padding: 8px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card .name {
+  font-size: 24px;
+  margin: 8px 0;
+}
